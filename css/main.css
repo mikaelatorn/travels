@@ -4,11 +4,16 @@
 
 body {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     color: #fff;
-    /*padding-top: 1.5em;*/
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 h3 {
@@ -23,6 +28,12 @@ a {
     text-decoration: none;
     display: block;
     color: #fff;
+    transition: all .3s;
+}
+
+a:hover {
+    color: #768276;
+    text-decoration: none;
 }
 
 button {
@@ -52,6 +63,35 @@ footer {
 
 .navbar-inverse .navbar-toggle {
     border-color: transparent;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 5.5em;
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#logo-container {
+    margin-left: 1em;
+    height: 5em;
+    width: 6em;
+    position: fixed;
+    background-color: #34363B;
+    z-index: 2000000;
+    border-radius: 0.2em;
+    box-shadow: 0px 2px 5px #232323;
+}
+
+svg {
+    width: 5em;
+    padding: 0.2em;
 }
 
 
@@ -108,6 +148,37 @@ header p {
     color: #fff;
 }
 
+.card {
+    margin: 2em 0;
+}
+
+.card-header {
+    padding: 2em 1em 0 1em;
+}
+
+.card-body {
+    padding: 0 1em 1em 1em;
+}
+
+.card-footer {
+    padding: 0.5em 1em;
+}
+
+.card-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-footer li {
+    display: inline-block;
+    background: #768276;
+    padding: .3em 1em;
+    border-radius: .2em;
+    color: #fff;
+    margin: 0.2em .1em;
+}
+
 #parallax {
     display: flex;
     justify-content: center;
@@ -120,6 +191,7 @@ header p {
 
 #parallax h2 {
     color: #fff;
+    font-weight: 900;
 }
 
 #parallax p {
@@ -133,6 +205,7 @@ header p {
 
 #book h2 {
     margin-bottom: 25px;
+    font-weight: 900;
 }
 
 .tabs button {
@@ -185,6 +258,10 @@ header p {
     color: #fff;
     padding: 2em 3em;
     text-align: left;
+}
+
+#footer h3 {
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 #footer div {
@@ -250,7 +327,6 @@ label {
 
 textarea {
     padding: 0;
-    margin-bottom: 1.2em;
 }
 
 #textarea-bar {
